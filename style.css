@@ -13,12 +13,8 @@ body
 .container
 {
     height: 60vh;
-    /* width: 40vw; */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* background-color: aquamarine; */
-    /* text-align: center; */
 }
 .game
 {
@@ -29,7 +25,6 @@ body
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 3%;
-    /* gap:1.5vmin; */
     
 }
 .box
@@ -51,3 +46,24 @@ body
     background-color: black;
 
 }
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  
+  .winningMessage {
+    margin-top: 200px;
+  }
+  .winningMessage{
+    display: none;
+  }
